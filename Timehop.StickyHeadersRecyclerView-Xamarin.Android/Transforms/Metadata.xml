@@ -1,0 +1,83 @@
+﻿<metadata>
+  	<remove-node path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='BuildConfig']" />
+
+  	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']" name="managedName">Timehop.StickyHeadersRecyclerview</attr>
+  	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview.caching']" name="managedName">Timehop.StickyHeadersRecyclerview.Caching</attr>
+  	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview.calculation']" name="managedName">Timehop.StickyHeadersRecyclerview.Calculation</attr>
+  	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview.rendering']" name="managedName">Timehop.StickyHeadersRecyclerview.Rendering</attr>
+  	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview.util']" name="managedName">Timehop.StickyHeadersRecyclerview.Util</attr>
+
+	<!-- All packages parameters -->
+	<attr path="/api/package//parameter[@type='android.util.AttributeSet']" name="name">attrs</attr>
+	<attr path="/api/package//parameter[@type='android.content.Context']" name="name">context</attr>
+
+	<!--- StickyRecyclerHeadersDecoration Class -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersDecoration']/constructor[@name='StickyRecyclerHeadersDecoration' and count(parameter)=1 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter']]/parameter[@name='p0']" name="managedName">adapter</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersDecoration']/method[@name='findHeaderPositionUnder' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p0']" name="managedName">x</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersDecoration']/method[@name='findHeaderPositionUnder' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p1']" name="managedName">y</attr>
+
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersDecoration']/method[@name='getHeaderView' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='int']]/parameter[@name='p0']" name="managedName">parent</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersDecoration']/method[@name='getHeaderView' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='int']]/parameter[@name='p1']" name="managedName">position</attr>
+
+	<!---Class: HeaderPositionCalculator -->
+	<!---Method: HeaderPositionCalculator -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/constructor[@name='HeaderPositionCalculator' and count(parameter)=4 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.caching.HeaderProvider'] and parameter[3][@type='com.timehop.stickyheadersrecyclerview.util.OrientationProvider'] and parameter[4][@type='com.timehop.stickyheadersrecyclerview.calculation.DimensionCalculator']]/parameter[@name='p0']" name="managedName">adapter</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/constructor[@name='HeaderPositionCalculator' and count(parameter)=4 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.caching.HeaderProvider'] and parameter[3][@type='com.timehop.stickyheadersrecyclerview.util.OrientationProvider'] and parameter[4][@type='com.timehop.stickyheadersrecyclerview.calculation.DimensionCalculator']]/parameter[@name='p1']" name="managedName">headerProvider</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/constructor[@name='HeaderPositionCalculator' and count(parameter)=4 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.caching.HeaderProvider'] and parameter[3][@type='com.timehop.stickyheadersrecyclerview.util.OrientationProvider'] and parameter[4][@type='com.timehop.stickyheadersrecyclerview.calculation.DimensionCalculator']]/parameter[@name='p2']" name="managedName">orientationProvider</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/constructor[@name='HeaderPositionCalculator' and count(parameter)=4 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.caching.HeaderProvider'] and parameter[3][@type='com.timehop.stickyheadersrecyclerview.util.OrientationProvider'] and parameter[4][@type='com.timehop.stickyheadersrecyclerview.calculation.DimensionCalculator']]/parameter[@name='p3']" name="managedName">dimensionCalculator</attr>
+
+	<!---Method: hasNewHeader -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='hasNewHeader' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='boolean']]/parameter[@name='p0']" name="managedName">position</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='hasNewHeader' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='boolean']]/parameter[@name='p1']" name="managedName">isReverseLayout</attr>
+
+	<!---Method: hasStickyHeader -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='hasStickyHeader' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p0']" name="managedName">itemView</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='hasStickyHeader' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p1']" name="managedName">orientation</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='hasStickyHeader' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p2']" name="managedName">position</attr>
+
+	<!---Method: initHeaderBounds -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='initHeaderBounds' and count(parameter)=5 and parameter[1][@type='android.graphics.Rect'] and parameter[2][@type='android.support.v7.widget.RecyclerView'] and parameter[3][@type='android.view.View'] and parameter[4][@type='android.view.View'] and parameter[5][@type='boolean']]/parameter[@name='p0']" name="managedName">bounds</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='initHeaderBounds' and count(parameter)=5 and parameter[1][@type='android.graphics.Rect'] and parameter[2][@type='android.support.v7.widget.RecyclerView'] and parameter[3][@type='android.view.View'] and parameter[4][@type='android.view.View'] and parameter[5][@type='boolean']]/parameter[@name='p1']" name="managedName">recyclerView</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='initHeaderBounds' and count(parameter)=5 and parameter[1][@type='android.graphics.Rect'] and parameter[2][@type='android.support.v7.widget.RecyclerView'] and parameter[3][@type='android.view.View'] and parameter[4][@type='android.view.View'] and parameter[5][@type='boolean']]/parameter[@name='p2']" name="managedName">header</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='initHeaderBounds' and count(parameter)=5 and parameter[1][@type='android.graphics.Rect'] and parameter[2][@type='android.support.v7.widget.RecyclerView'] and parameter[3][@type='android.view.View'] and parameter[4][@type='android.view.View'] and parameter[5][@type='boolean']]/parameter[@name='p3']" name="managedName">firstView</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='HeaderPositionCalculator']/method[@name='initHeaderBounds' and count(parameter)=5 and parameter[1][@type='android.graphics.Rect'] and parameter[2][@type='android.support.v7.widget.RecyclerView'] and parameter[3][@type='android.view.View'] and parameter[4][@type='android.view.View'] and parameter[5][@type='boolean']]/parameter[@name='p4']" name="managedName">firstHeader</attr>
+
+
+	<!---Interface: StickyRecyclerHeadersAdapter -->
+	<!---Method: getHeaderId -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='getHeaderId' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name="managedName">position</attr>
+
+	<!---Method: onCreateHeaderViewHolder -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='onCreateHeaderViewHolder' and count(parameter)=1 and parameter[1][@type='android.view.ViewGroup']]/parameter[@name='p0']" name="managedName">parent</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='onCreateHeaderViewHolder' and count(parameter)=1 and parameter[1][@type='android.view.ViewGroup']]" name="return">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
+
+	<!---Method: onBindHeaderViewHolder -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='onBindHeaderViewHolder' and count(parameter)=2 and parameter[1][@type='VH'] and parameter[2][@type='int']]/parameter[@name='p0']" name="managedName">holder</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='onBindHeaderViewHolder' and count(parameter)=2 and parameter[1][@type='VH'] and parameter[2][@type='int']]/parameter[@name='p1']" name="managedName">position</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersAdapter']/method[@name='onBindHeaderViewHolder' and count(parameter)=2 and parameter[1][@type='VH'] and parameter[2][@type='int']]/parameter[@name='p0']" name="type">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
+
+
+	<!---Interface: StickyRecyclerHeadersAdapter.OnHeaderClickListener -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersTouchListener.OnHeaderClickListener']/method[@name='onHeaderClick' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='long']]/parameter[@name='p0']" name="managedName">header</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersTouchListener.OnHeaderClickListener']/method[@name='onHeaderClick' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='long']]/parameter[@name='p1']" name="managedName">position</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/interface[@name='StickyRecyclerHeadersTouchListener.OnHeaderClickListener']/method[@name='onHeaderClick' and count(parameter)=3 and parameter[1][@type='android.view.View'] and parameter[2][@type='int'] and parameter[3][@type='long']]/parameter[@name='p2']" name="managedName">headerId</attr>
+
+	<!--- constructor reference -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/constructor[@name='StickyRecyclerHeadersTouchListener' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersDecoration']]/parameter[@name='p0']" name="managedName">recyclerView</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/constructor[@name='StickyRecyclerHeadersTouchListener' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersDecoration']]/parameter[@name='p1']" name="managedName">decor</attr>
+
+	<!---Method: onInterceptTouchEvent -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='onInterceptTouchEvent' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='android.view.MotionEvent']]/parameter[@name='p0']" name="managedName">view</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='onInterceptTouchEvent' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='android.view.MotionEvent']]/parameter[@name='p1']" name="managedName">e</attr>
+
+	<!---Method: onRequestDisallowInterceptTouchEvent -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='onRequestDisallowInterceptTouchEvent' and count(parameter)=1 and parameter[1][@type='boolean']]/parameter[@name='p0']" name="managedName">disallowIntercept</attr>
+
+	<!---Method: onTouchEvent -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='onTouchEvent' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='android.view.MotionEvent']]/parameter[@name='p0']" name="managedName">view</attr>
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='onTouchEvent' and count(parameter)=2 and parameter[1][@type='android.support.v7.widget.RecyclerView'] and parameter[2][@type='android.view.MotionEvent']]/parameter[@name='p1']" name="managedName">e</attr>
+
+	<!---Method: onTouchEvent -->
+	<attr path="/api/package[@name='com.timehop.stickyheadersrecyclerview']/class[@name='StickyRecyclerHeadersTouchListener']/method[@name='setOnHeaderClickListener' and count(parameter)=1 and parameter[1][@type='com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersTouchListener.OnHeaderClickListener']]/parameter[@name='p0']" name="managedName">listener</attr>
+
+</metadata>

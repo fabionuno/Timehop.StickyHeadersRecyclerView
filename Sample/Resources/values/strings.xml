@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StickyHeader Sample</string>
+    <string name="button_update">Start Update</string>
+    <string name="button_reverse">Is reverse</string>
+
+</resources>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timehop.StickyHeadersRecyclerView-Xamarin.Android", "Timehop.StickyHeadersRecyclerView-Xamarin.Android\Timehop.StickyHeadersRecyclerView-Xamarin.Android.csproj", "{0E25AC3A-956C-4B35-AD0C-6B4EB4E2158B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{CCF68C01-34D0-4938-9648-837975A29DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E25AC3A-956C-4B35-AD0C-6B4EB4E2158B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E25AC3A-956C-4B35-AD0C-6B4EB4E2158B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E25AC3A-956C-4B35-AD0C-6B4EB4E2158B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E25AC3A-956C-4B35-AD0C-6B4EB4E2158B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF68C01-34D0-4938-9648-837975A29DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF68C01-34D0-4938-9648-837975A29DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF68C01-34D0-4938-9648-837975A29DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF68C01-34D0-4938-9648-837975A29DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
