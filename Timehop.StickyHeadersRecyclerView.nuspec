@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Timehop.StickyHeadersRecyclerView</id>
+    <version>0.4.2.0</version>
+    <title>Timehop.StickyHeadersRecyclerView for Xamarin.Android</title>
+    <authors>Fabio Nuno</authors>
+    <owners>Fabio Nuno</owners>
+    <projectUrl>https://github.com/fabionuno/Timehop.StickyHeadersRecyclerView</projectUrl>
+    <licenseUrl>https://github.com/fabionuno/Timehop.StickyHeadersRecyclerView/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/fabionuno/Timehop.StickyHeadersRecyclerView/master/art/nugeticon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This decorator allows you to easily create section headers for RecyclerViews using a LinearLayoutManager in either vertical or horizontal orientation.
+It's a Xamarin binding of the StickyHeadersRecyclerView library by Timehop.
+    </description>
+    <releaseNotes>
+      Supports Timehop StickyHeadersRecyclerView version 0.4.2;
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>recyclerview, sticky, headers, material, xamarin, xamarin android</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v4" version="22.2.1.0" />
+      <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="22.2.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Timehop.StickyHeadersRecyclerView-Xamarin.Android/bin/Release/Timehop.StickyHeadersRecyclerView.dll" target="lib\MonoAndroid403" />
+  </files>
+</package>
