@@ -11,8 +11,8 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AssemblyName>Timehop.StickyHeadersRecyclerView</AssemblyName>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
-    <ReleaseVersion>0.4.3.0</ReleaseVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
+    <ReleaseVersion>0.4.3.1</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Java7DocPaths>JavaDocs</Java7DocPaths>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,5 +65,8 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\library-stickyheadersrecyclerview.0.4.3.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaDocIndex Include="JavaDocs\index.html" />
   </ItemGroup>
 </Project>

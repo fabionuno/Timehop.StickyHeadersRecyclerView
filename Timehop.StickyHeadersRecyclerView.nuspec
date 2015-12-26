@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Timehop.StickyHeadersRecyclerView</id>
-    <version>0.4.3.0</version>
+    <version>0.4.3.1</version>
     <title>Timehop.StickyHeadersRecyclerView for Xamarin.Android</title>
     <authors>Fabio Nuno</authors>
     <owners>Fabio Nuno</owners>
@@ -15,8 +15,8 @@
 It's a Xamarin binding of the StickyHeadersRecyclerView library by Timehop.
     </description>
     <releaseNotes>
-      Supports Timehop StickyHeadersRecyclerView version 0.4.3;
-      - Fix issues with recyclerview items with margins;
+      Supports Timehop StickyHeadersRecyclerView version 0.4.3 (12/24/2015);
+      - Fix issue with header bounds caching;
     </releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>recyclerview, sticky, headers, material, xamarin, xamarin android</tags>
@@ -26,6 +26,6 @@ It's a Xamarin binding of the StickyHeadersRecyclerView library by Timehop.
     </dependencies>
   </metadata>
   <files>
-    <file src="Timehop.StickyHeadersRecyclerView-Xamarin.Android/bin/Release/Timehop.StickyHeadersRecyclerView.dll" target="lib\MonoAndroid403" />
+    <file src="Timehop.StickyHeadersRecyclerView-Xamarin.Android/bin/Release/Timehop.StickyHeadersRecyclerView.*" target="lib\MonoAndroid403" />
   </files>
 </package>

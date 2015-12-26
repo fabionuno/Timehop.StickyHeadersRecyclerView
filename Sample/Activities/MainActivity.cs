@@ -9,11 +9,12 @@ using Android.OS;
 using Android.Support.V7.Widget;
 using Timehop.StickyHeadersRecyclerview;
 using Android.Content.PM;
+using Android.Support.V7.App;
 
 namespace Sample
 {
     [Activity(MainLauncher = true, Theme="@style/AppTheme")]
-    public class MainActivity : Activity
+    public class MainActivity : AppCompatActivity
     {
         private ToggleButton isReverseButton;
         private Button updateButton;
@@ -28,7 +29,6 @@ namespace Sample
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.activity_main);
-            this.ActionBar.SetDisplayShowHomeEnabled(false);
 
             RecyclerView recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerview);
             this.updateButton = FindViewById<Button>(Resource.Id.button_update);
